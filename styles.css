@@ -1,0 +1,117 @@
+body{
+    color: black;
+    font-family: Outfit, sans-serif;
+    background-color: ghostwhite;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.foto {
+    width: 100%;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkseagreen;
+}
+
+li {
+    float: left;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkslategray;
+}
+
+.active {
+    background-color: darkslategray;
+}
+
+p {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bestemmingen {
+    background-color: darkseagreen;
+    font-size: 30px;
+}
+
+.link {
+    color: black;
+}
+
+.image {
+    padding: 5px;
+    margin: 20px 40px;
+    border: black 10px dotted;
+    border-color: darkseagreen;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+form {
+    margin: 10px 10px 10px 200px;
+}
+.form {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.font {
+    font-size: 80%;
+}
+
+.footer-home  {
+    padding: 20px;
+    margin: 20px;
+    border: black 10px;
+    border-style:dotted;
+}
+
+.footer {
+    background-color: darkseagreen;
+}
+
+@media screen and (min-width: 1024px){
+    body {
+        font-size: 150%;
+    }
+   .intro {
+       border: black 10px;
+       margin: 0px 50px 50  px 50px;
+       padding: 0;
+       border-style: inherit;
+   }
+   
+   .form {
+       text-align: center;
+       padding: 10px;
+   }
+
+}
